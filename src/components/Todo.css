@@ -1,0 +1,56 @@
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  width: 100%;
+}
+
+button.edit {
+  background-color: #ffc107;
+  color: #fff;
+  margin-right: 5px;
+}
+
+button.close {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.todos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todos-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todos-list li span {
+  flex-grow: 1;
+}
